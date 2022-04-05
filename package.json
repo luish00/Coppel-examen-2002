@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start:front": "cd frontend && yarn start",
+    "start:back": "cd backend && yarn dev",
+    "build:front": "cd frontend && yarn build",
+    "build:deploy": "cd backend && yarn build && yarn deploy"
+  },
+  "license": "ISC"
+}

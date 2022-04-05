@@ -1,0 +1,6 @@
+node_modules
+build
+.env
+src/public/*.jpg
+src/public/*.jpeg
+src/public/*.png

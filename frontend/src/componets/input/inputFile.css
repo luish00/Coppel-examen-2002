@@ -1,0 +1,56 @@
+.input-file-icon:hover {
+  opacity: 0.9;
+}
+
+.fab-inp-container-disabled {
+  cursor: none;
+  opacity: 0.3;
+}
+
+.fab-inp-container:active,
+.input-file-icon:active {
+  background-color: #78002e;
+}
+
+.fab-inp-container {
+  align-items: center;
+  background-color: #78002e;
+  border-radius: 8px;
+  border: 1px solid #b0003a;
+  display: flex;
+  justify-content: center;
+  padding: 5px 16px;
+  width: fit-content;
+}
+
+.input-file {
+  color: #fff;
+  cursor: pointer;
+}
+
+.input-file-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-file span:first-child {
+  padding-right: 8px;
+}
+
+.input-file::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.input-file input {
+  display: flex;
+  height: 0;
+  overflow: hidden;
+  width: 0;
+}
+
+.input-file-icon span {
+  color: #fff;
+  font-size: 20px;
+  padding-bottom: 6px;
+}

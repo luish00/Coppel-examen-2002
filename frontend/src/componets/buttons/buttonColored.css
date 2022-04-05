@@ -1,0 +1,16 @@
+.button-colored {
+  align-items: center;
+  background-color: #78002e;
+  border-radius: 8px;
+  border: 1px solid #b0003a;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 5px 16px;
+  width: fit-content;
+}
+
+.button-colored:disabled {
+  opacity: 0.3;
+  cursor: none;
+}
